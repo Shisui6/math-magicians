@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://shisui6.github.io/math-magicians)
+- [Live Demo Link](https://shisui-math-magicians.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +110,8 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```sh
-  npm run deploy - Deploys using gh-pages
+  npm install -g serve
+  serve -s build
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

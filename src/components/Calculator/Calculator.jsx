@@ -26,10 +26,10 @@ class Calculator extends Component {
 
     const displayValue = () => {
       if (calculator.next) {
-        return calculator.next;
+        return Number(calculator.next).toLocaleString();
       }
       if (calculator.total) {
-        return calculator.total;
+        return Number(calculator.total).toLocaleString();
       }
 
       return '0';

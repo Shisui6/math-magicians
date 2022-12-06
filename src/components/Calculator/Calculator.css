@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  animation: fade-in 0.8s forwards;
 }
 
 .calculator {
@@ -85,6 +87,12 @@ button {
 
 .main:hover {
   background-color: #222526;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {

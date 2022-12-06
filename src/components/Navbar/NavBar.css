@@ -28,6 +28,11 @@ nav h2 {
 .link {
   text-decoration: none;
   color: #000;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #073066;
 }
 
 .active {

@@ -28,10 +28,10 @@ const Calculator = () => {
     <div className="calc-cont">
       <div className="calculator">
         <div className="display">{displayValue()}</div>
-        <button type="button" className="main" onClick={handleClick}>AC</button>
+        <button type="button" className="main ac" onClick={handleClick}>AC</button>
         <button type="button" className="main" onClick={handleClick}>+/-</button>
         <button type="button" className="main" onClick={handleClick}>%</button>
-        <button type="button" className="side" onClick={handleClick}>÷</button>
+        <button type="button" className="side divide" onClick={handleClick}>÷</button>
         <button type="button" className="main" onClick={handleClick}>7</button>
         <button type="button" className="main" onClick={handleClick}>8</button>
         <button type="button" className="main" onClick={handleClick}>9</button>
@@ -46,7 +46,7 @@ const Calculator = () => {
         <button type="button" className="side" onClick={handleClick}>+</button>
         <button type="button" className="main zero" onClick={handleClick}>0</button>
         <button type="button" className="main" onClick={handleClick}>.</button>
-        <button type="button" className="side" onClick={handleClick}>=</button>
+        <button type="button" className="side equal" onClick={handleClick}>=</button>
       </div>
     </div>
   );

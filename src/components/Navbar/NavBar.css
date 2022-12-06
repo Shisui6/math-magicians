@@ -4,6 +4,7 @@ nav {
   justify-content: space-between;
   padding: 0 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 72px;
 }
 
 nav ul {
@@ -33,4 +34,19 @@ nav h2 {
   color: #073066;
   font-weight: 900;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: 95px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li:first-child {
+    margin-left: 20px;
+  }
 }

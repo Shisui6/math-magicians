@@ -11,8 +11,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 150px repeat(5, 60px);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   border-radius: 25px;
+  color: #fff;
 }
 
 button {
@@ -30,11 +30,14 @@ button {
   grid-column: 1 / 5;
   justify-content: end;
   padding-right: 20px;
-  padding-top: 65px;
+  padding-top: 25px;
   font-size: 30px;
   font-weight: 700;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  background-color: #181a1b;
+  position: relative;
+  top: 22px;
 }
 
 .zero {
@@ -44,12 +47,12 @@ button {
 }
 
 .equal {
-  background-color: #073066 !important;
+  background-color: #062652 !important;
   border-bottom-right-radius: 10px;
 }
 
 .equal:hover {
-  background-color: #8a95a3 !important;
+  background-color: #535a5d !important;
 }
 
 .ac {
@@ -61,22 +64,31 @@ button {
 }
 
 .side {
-  background-color: #8cb3e6;
+  background-color: #183e6f;
   color: #fff;
   justify-content: center;
+  z-index: 2;
 }
 
 .side:hover {
-  background-color: #7899c5;
+  background-color: #324f75;
 }
 
 .main {
-  background-color: #f9f9f9;
+  background-color: #1b1e1f;
   justify-content: center;
   transition: 0.2s;
   border: none;
+  color: #fff;
+  z-index: 3;
 }
 
 .main:hover {
-  background-color: #ededed;
+  background-color: #222526;
+}
+
+@media screen and (max-width: 768px) {
+  .calculator {
+    width: 80%;
+  }
 }

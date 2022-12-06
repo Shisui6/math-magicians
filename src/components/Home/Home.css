@@ -11,3 +11,14 @@
   width: 90%;
   line-height: 28px;
 }
+
+@media screen and (max-width: 768px) {
+  .home p {
+    width: 100%;
+    line-height: 28px;
+  }
+
+  .home {
+    padding: 100px 50px;
+  }
+}

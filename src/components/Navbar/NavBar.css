@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav h2 {
+  color: #073066;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: #073066;
+  font-weight: 900;
+  text-decoration: none;
+}

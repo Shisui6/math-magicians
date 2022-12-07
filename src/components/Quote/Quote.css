@@ -1,7 +1,6 @@
-.home {
-  padding: 85px 100px;
+.quote {
   height: calc(100vh - 72px);
-  background-image: url('../../../public/home1.jpg');
+  background-image: url('../../../public/home.jpg');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,23 +14,19 @@
   }
 }
 
-.home h1 {
-  font-size: 50px;
-}
-
-.home p {
-  width: 90%;
-  line-height: 28px;
+.quote p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 170px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #073066;
 }
 
 @media screen and (max-width: 768px) {
-  .home p {
-    width: 90%;
-    line-height: 28px;
-  }
-
-  .home {
-    padding: 40px 30px;
+  .quote {
     height: calc(100vh - 53px);
   }
 }

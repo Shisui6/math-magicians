@@ -44,6 +44,7 @@ nav h2 {
 @media screen and (max-width: 768px) {
   nav {
     height: 95px;
+    padding: 0 20px;
   }
 
   nav ul {
@@ -51,7 +52,7 @@ nav h2 {
     align-items: flex-start;
   }
 
-  nav li:first-child {
-    margin-left: 20px;
+  nav li {
+    margin-left: 0;
   }
 }

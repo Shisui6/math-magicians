@@ -21,33 +21,6 @@ code {
     monospace;
 }
 
-.quote {
-  height: calc(100vh - 72px);
-  background-image: url('../public/home.jpg');
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0;
-  animation: fade-in 0.8s forwards;
-}
-
-@keyframes fade-in {
-  100% {
-    opacity: 1;
-  }
-}
-
-.quote p {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 170px;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 45px;
-  color: #073066;
-}
-
 #error-page {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/404.jpg');
   background-size: cover;

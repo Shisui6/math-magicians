@@ -44,6 +44,7 @@
 
 - Displays a calculator that allows users to make simple calculations
 - Displays a random math related quote
+- Responsive design which adapts to most screen sizes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

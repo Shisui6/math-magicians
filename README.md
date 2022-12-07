@@ -26,7 +26,7 @@
 
 **Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-![image](https://user-images.githubusercontent.com/37116322/206031203-1642c1c5-2458-496e-835c-bc784035d6e4.png)
+![image](https://user-images.githubusercontent.com/37116322/206127840-d81f54f2-88ae-43f7-8a44-ee452ee85881.png)
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>

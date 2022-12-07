@@ -7,7 +7,7 @@ const Home = () => (
       Welcome to Math Magicians! This app is designed to make
       your life easier by allowing you to quickly and easily calculate anything you need.
       Whether you&apos;re trying to figure out a math problem or solve a complex equation,
-      this app will do the trick. So go ahead, click calculate and solve those problems!
+      this app will do the trick. So go ahead, click calculator and solve those problems!
     </p>
   </div>
 );

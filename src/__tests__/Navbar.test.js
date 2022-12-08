@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../components/Navbar/Navbar.js';
 
 describe('NavBar', () => {
   it('renders correctly', () => {

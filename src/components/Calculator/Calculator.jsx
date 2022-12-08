@@ -37,7 +37,7 @@ const Calculator = () => {
         <button type="button" className="main" onClick={handleClick}>9</button>
         <button type="button" className="side" onClick={handleClick}>x</button>
         <button type="button" className="main" onClick={handleClick}>4</button>
-        <button type="button" className="main" onClick={handleClick}>5</button>
+        <button type="button" data-testid="five" className="main" onClick={handleClick}>5</button>
         <button type="button" className="main" onClick={handleClick}>6</button>
         <button type="button" className="side" onClick={handleClick}>-</button>
         <button type="button" className="main" onClick={handleClick}>1</button>

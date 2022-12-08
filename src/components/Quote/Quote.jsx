@@ -5,7 +5,7 @@ const Quote = () => {
 
   return (
     <div className="quote">
-      <p data-testid="5">{quotes[0]}</p>
+      <p data-testid="5">{quotes[Math.floor(Math.random() * 10)]}</p>
     </div>
   );
 };

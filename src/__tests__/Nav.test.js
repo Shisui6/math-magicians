@@ -1,10 +1,8 @@
-import { render, screen, cleanup } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
 
-afterEach(cleanup);
-
-describe('NavBar', () => {
+describe('Navbar', () => {
   it('renders correctly', () => {
     const { asFragment } = render(<Navbar />, { wrapper: BrowserRouter });
 

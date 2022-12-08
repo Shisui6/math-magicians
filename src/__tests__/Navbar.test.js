@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
+// eslint-disable-next-line import/extensions
 import Navbar from '../components/Navbar/Navbar';
 
 describe('Navbar', () => {

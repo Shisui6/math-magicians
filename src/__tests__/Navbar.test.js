@@ -1,16 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from '../components/NavBar/NavBar';
+import Navbar from '../components/Navbar/Navbar';
 
 describe('NavBar', () => {
   it('renders correctly', () => {
-    const { asFragment } = render(<NavBar />, { wrapper: BrowserRouter });
+    const { asFragment } = render(<Navbar />, { wrapper: BrowserRouter });
 
-    expect(asFragment(<NavBar />)).toMatchSnapshot();
+    expect(asFragment(<Navbar />)).toMatchSnapshot();
   });
 
   it('contains the calculator link', () => {
-    render(<NavBar />, { wrapper: BrowserRouter });
+    render(<Navbar />, { wrapper: BrowserRouter });
 
     expect(screen.getByText('Calculator')).toHaveClass('link');
   });

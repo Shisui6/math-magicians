@@ -12,7 +12,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('3');
     });
 
@@ -25,7 +25,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('418');
     });
   });
@@ -41,7 +41,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('-144');
     });
 
@@ -54,7 +54,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('6.66');
     });
   });
@@ -70,7 +70,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('0');
     });
 
@@ -83,14 +83,14 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('34710672');
     });
   });
 
   describe('Division', () => {
     // Check if the division is correct
-    test('80 / 0 = It should return Can\'t divide by 0. ? ', () => {
+    test("80 / 0 = It should return Can't divide by 0. ? ", () => {
       // Arrange
       const numberOne = 80;
       const numberTwo = 0;
@@ -99,8 +99,8 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
-      expect(result).toBe('Can\'t divide by 0.');
+      // Assert
+      expect(result).toBe("Can't divide by 0.");
     });
 
     // Check if the division by 0 is correct
@@ -113,7 +113,7 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('2.88461538461538461538');
     });
   });
@@ -129,12 +129,12 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
+      // Assert
       expect(result).toBe('1');
     });
 
     // Check if the division by 0 is correct
-    test('8 % 0 == It should return Can\'t find modulo as can\'t divide by 0. ? ', () => {
+    test("8 % 0 == It should return Can't find modulo as can't divide by 0. ? ", () => {
       // Arrange
       const numberOne = 8;
       const numberTwo = 0;
@@ -143,8 +143,8 @@ describe('Testing Operate function', () => {
       // Act
       const result = operate(numberOne, numberTwo, operation);
 
-      //Assert
-      expect(result).toBe('Can\'t find modulo as can\'t divide by 0.');
+      // Assert
+      expect(result).toBe("Can't find modulo as can't divide by 0.");
     });
   });
 
@@ -158,10 +158,12 @@ describe('Testing Operate function', () => {
       const operation = '$';
 
       // Act
-      const result = () => {operate(numberOne, numberTwo, operation)};
+      const result = () => {
+        operate(numberOne, numberTwo, operation);
+      };
 
-      //Assert
-      expect(result).toThrowError('Unknown operation \'$\'');
+      // Assert
+      expect(result).toThrowError("Unknown operation '$'");
     });
-  })
+  });
 });
